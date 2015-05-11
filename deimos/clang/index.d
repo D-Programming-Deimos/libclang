@@ -13,14 +13,14 @@
 |*                                                                            *|
 \*===----------------------------------------------------------------------===*/
 
-module clang.c.index;
+module deimos.clang.index;
 
 import core.stdc.config;
 import core.stdc.time;
 
 
-import clang.c.cxerrorcode;
-import clang.c.cxstring;
+import deimos.clang.cxerrorcode;
+import deimos.clang.cxstring;
 
 extern (C):
 
